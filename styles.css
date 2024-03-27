@@ -1,0 +1,99 @@
+:root{--color1:rgb(50, 50, 255);
+--color2: rgb(250, 10, 10);
+--background: rgb(10, 160, 200);
+--navbar: rgb(50, 200, 250);
+--navbar-out: rgb(0, 0, 20);
+--button2: rgb(50, 200, 250);
+--button-out: rgb(100, 100, 150);
+--profile-out: rgb(0, 0, 20);
+--hover-color: rgb(15, 6, 11);}
+body{background-color:var(--background); }
+.navigation{width: 100vw;
+    height: 40px;
+    background-color: var(--navbar);
+    position: fixed;
+    border-bottom: 2px solid var(--navbar-out);
+    top: 0px;
+    left: 0px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly}
+
+.profile-pic img{width: 250px;
+    height: 250px;
+    top: 100px;
+    left: 40vw;
+    z-index: -1;
+    position: absolute;
+    border-radius: 50%;
+
+    }
+frame{top: 1px;
+    border-radius: 50%;
+    border: 2px solid var(--profile-out);
+    position: fixed;
+    height: 100px;
+    width: 100px;}
+#welcome-section{height:100vh; top: 100px;}
+#btn{
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;}
+#navbar{padding-top: 5px;}
+
+button{height: 30px;
+    background-color: var(--button-out);
+    border: 1px solid var(--button-out);
+    border-radius: 5%;}
+button a{text-decoration: none;
+    color: white;
+    cursor: pointer;
+    height: 100%;
+    width:100%;}
+a:visited{}
+a:active{}
+a:hover{color: var(--hover-color); }
+.navigation .punch-nav{width: 50vw;}
+h1{text-align: center;
+    color: white;
+    padding-top: 450px;
+    font-size: 50px;
+    text-shadow: 5px 5px black;}
+p{font-size: 20px;
+    font-family: times}
+h2{text-transform: uppercase;}
+.personal-info{display: flex;
+justify-content: space-evenly;
+}
+.personal-info .set1{text-align: right;  height: 100%;
+font-weight: bold;}
+.set1 p{}
+.personal-info .set2{text-align: left;}
+.personal-info .punch{width: 30vw;}
+#education p{text-align: center;}
+    
+.the-columns{text-align: center;
+    color: white;
+    height: 100%;}
+section{padding-bottom: 30px;}
+.skills{padding: 20px}
+hr{width:70vw;
+    color: red;
+    border: 1px solid var(--navbar);}
+.lines{height: 5px; border: 1px solid red;}
+footer div{text-align: center; padding: 30px;}
+footer img{height: 30px;
+    width: 30px;
+    left: 50vw;}
+#social-txt{text-align: center;
+    color: white;
+    font-family:geneva;}
+#more-info{color: white;
+    text-align: center;
+    font-family:geneva;
+    }
+#wasap{background-color: transparent;
+    border: 1px solid transparent;}
+@media(max-width: 700px){#punch{width: 4px;}}, {#punch-nav{width:10px;}}
